@@ -24,3 +24,11 @@
 5. prod build : eas build - aab file and add to google store
 6. create app on google play
 7. privacy policy genrator
+
+## App Version
+1.First version in package json: 
+2. import pkg from './package.json''
+3. import {coerce} from 'semver';
+
+### CI/CD pipeline
+https://medium.com/swlh/expo-react-native-complete-ci-cd-workflow-using-github-actions-4b7bc87616b3
